@@ -1,22 +1,64 @@
-const analyzer = {  
+const analyzer = {
   getWordCount: (text) => {
-    //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
+    const words = text.split(/\s+/);
+    let count = 0;
+    for (let i = 0; i < words.length; i++) {
+      if (words[i].length > 0) {
+        count++;
+      }
+    }
+    return count;
   },
+
   getCharacterCount: (text) => {
-    //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
+    const charCount = text.length;
+    return charCount;
   },
+
   getCharacterCountExcludingSpaces: (text) => {
-    //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
+    const textWithoutSpaces = text.replace(/\s+/g, '');
+    let count = 0;
+    for (let i = 0; i < textWithoutSpaces.length; i++) {
+      if (/\w/.test(textWithoutSpaces[i])) {
+        count++;
+      }
+    }
+    return count;
   },
-  getAverageWordLength: (text) => {    
-    //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
-  },
+
   getNumberCount: (text) => {
-    //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
+    const numbers = text.match(/\b\d+(\.\d+)?\b/g);
+    const numberCount = numbers ? numbers.length : 0;
+    return numberCount;
   },
+
   getNumberSum: (text) => {
-    //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
+    const numbers = text.match(/\b\d+(\.\d+)?\b/g);
+    let sum = 0;
+    if (numbers) {
+      for (let i = 0; i < numbers.length; i++) {
+        sum += parseFloat(numbers[i]);
+      }
+    }
+    return sum;
   },
+
+  getAverageWordLength: (text) => {
+    const words = text.split(/\s+/);
+    let totalLength = 0;
+    let validWordCount = 0;
+
+    words.forEach(word => {
+      if (word.length > 0) {
+        totalLength += word.length;
+        validWordCount++;
+      }
+    });
+
+    const avgWordLength = validWordCount ? totalLength / validWordCount : 0;
+    return Number(avgWordLength.toFixed(2));
+    //cambiarle de string a numbers
+  }
 };
 
 export default analyzer;
