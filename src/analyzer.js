@@ -57,7 +57,7 @@ const analyzer = {
 
     const avgWordLength = validWordCount ? totalLength / validWordCount : 0;
     return Number(avgWordLength.toFixed(2));
-    //cambiarle de string a numbers
+  
   }
 };
 
