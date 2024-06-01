@@ -5,16 +5,17 @@
 
 
  El siguiente programa es un anlizador de texto, con un diseño muy llamativo e interactivo, cuenta con las siguientes **funciones y códigos**:
- ##FUNCIONES 
+ 
+* [Funciones](#Funciones)
+* [1.Recuento de palabras ](##1.-Recuento-de-palabras)
+* [2. Recuento de caracteres.](###2.-Recuento-de-caracteres.)
+* [3. Recuento de caracteres sin especios ni signos de puntuación.](##-3.-Recuento-de-caracteres-sin-especios-ni-signos-de-puntuación.)
+* [4.  Recuento de números .](##-4-Recuento-de-números-.)
+* [5. Suma total d enúmeros](##5.-Suma-total-de-números).
+* [6.Longuitud media de las palabras.](##6.-Longuitud-media-de-las-palabras.)
+* 
 
-* [1.Recuento de palabras ](#-considera-generales)
-* [2. Recuento de caracteres.](#2-preámbulo)
-* [3. Recuento de caracteres sin especios ni signos de puntuación.](#3-resumen-del-proyecto)
-* [4.  Recuento de números .](#4-funcionalidades)
-* [5. Boilerplate](#5-boilerplate)
-* [6.Longuitud media de las palabras.](##6-Longuitud-media-de-las-palabras.)
-
-
+#Funciones
 ## 1. Recuento de palabras 
 Cuando ingresas un texto aqui se verá reflejado de manera automática el conteo de palabras que ingresan en el caja de texto, esta acción sera en tiempo real.
 ## 2. Recuento de caracteres.
