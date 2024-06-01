@@ -1,6 +1,5 @@
 
 
-![Una lupa sobre texto de libro](/2bhttps://github.com/Laboratoria/curriculum/assets/9209045f653-69a5-4282-a65c-d34125c36113)
 <p align="center"><font size="5"><strong>Analizador de texto</strong></font></p>
 
 
