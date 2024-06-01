@@ -5,9 +5,21 @@
 
 
  El siguiente programa es un anlizador de texto, con un diseño muy llamativo e interactivo, cuenta con las siguientes **funciones y códigos**:
- 
+ ##FUNCIONES 
+
+* [1.Recuento de palabras ](#1-consideraciones-generales)
+* [2. Preámbulo](#2-preámbulo)
+* [3. Resumen del proyecto](#3-resumen-del-proyecto)
+* [4. Funcionalidades](#4-funcionalidades)
+* [5. Boilerplate](#5-boilerplate)
+* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
+* [7. Pruebas](#7-pruebas)
+* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+* [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
+* [10. Objetivos de aprendizaje](#10-objetivos-de-aprendizaje)
+* [11. Funcionalidades opcionales](#11-funcionalidades-opcionales)
 [TOC]
-#FUNCIONES 
+
 ## Recuento de palabras 
 Cuando ingresas un texto aqui se verá reflejado de manera automática el conteo de palabras que ingresan en el caja de texto, esta acción sera en tiempo real.
 ## Recuento de caracteres.
