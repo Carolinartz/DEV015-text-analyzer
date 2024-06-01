@@ -13,9 +13,7 @@
 * [4.  Recuento de números .](##-4-Recuento-de-números-.)
 * [5. Suma total d enúmeros](##5.-Suma-total-de-números).
 * [6.Longuitud media de las palabras.](##6.-Longuitud-media-de-las-palabras.)
-* 
-
-#Funciones
+  
 ## 1. Recuento de palabras 
 Cuando ingresas un texto aqui se verá reflejado de manera automática el conteo de palabras que ingresan en el caja de texto, esta acción sera en tiempo real.
 ## 2. Recuento de caracteres.
