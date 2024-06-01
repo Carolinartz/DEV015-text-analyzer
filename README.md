@@ -7,31 +7,26 @@
  El siguiente programa es un anlizador de texto, con un diseño muy llamativo e interactivo, cuenta con las siguientes **funciones y códigos**:
  ##FUNCIONES 
 
-* [1.Recuento de palabras ](##-consideraciones-generales)
-* [2. Preámbulo](#2-preámbulo)
-* [3. Resumen del proyecto](#3-resumen-del-proyecto)
-* [4. Funcionalidades](#4-funcionalidades)
+* [1.Recuento de palabras ](#-considera-generales)
+* [2. Recuento de caracteres.](#2-preámbulo)
+* [3. Recuento de caracteres sin especios ni signos de puntuación.](#3-resumen-del-proyecto)
+* [4.  Recuento de números .](#4-funcionalidades)
 * [5. Boilerplate](#5-boilerplate)
-* [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-* [7. Pruebas](#7-pruebas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Consideraciones para pedir tu Project Feedback](#9-consideraciones-para-pedir-tu-project-feedback)
-* [10. Objetivos de aprendizaje](#10-objetivos-de-aprendizaje)
-* [11. Funcionalidades opcionales](#11-funcionalidades-opcionales)
-[TOC]
+* [6.Longuitud media de las palabras.](##6-Longuitud-media-de-las-palabras.)
 
-## Recuento de palabras 
+
+## 1. Recuento de palabras 
 Cuando ingresas un texto aqui se verá reflejado de manera automática el conteo de palabras que ingresan en el caja de texto, esta acción sera en tiempo real.
-## Recuento de caracteres.
+## 2. Recuento de caracteres.
 Todo texto cuenta con diferente tipo de carcateres como las letras, los números, los espacios, caracteres especiales, hasta signos de puntuación.
 Estos se veran refeljados en de manera automatica mientras ingresas tu texto y será en tiempo real.
-## Recuento de caracteres sin especios ni signos de puntuación.
+## 3. Recuento de caracteres sin especios ni signos de puntuación.
 Y si quieres saber el número de caracteres que ingresas sin sin espacios y signos de puntuación este es el espacio adecuado, los mirarás mientras ingresas tu texto.
-## Recuento de números .
+## 4. Recuento de números .
 Si tu texto contiene caracteres de tipo numerico y quieres saber unicamente cuantos de este tipo exiten, este contador es el indicado .
-## Suma total de números.
+## 5. Suma total de números.
 Aquí encontrarás la suma total de todos los los números que te encuntres ingresando, los vas singresando y aqui te va a rrojando el valor de la suma en tiempo real.
-## Longuitud media de las palabras.
+## 6.Longuitud media de las palabras.
 El dato que encontrarás aqui es el promedio de la longuitud de todas las spalabras ingresadas en tu texto.
 
 #Códigos
