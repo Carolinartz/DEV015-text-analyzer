@@ -7,7 +7,7 @@
  El siguiente programa es un anlizador de texto, con un diseño muy llamativo e interactivo, cuenta con las siguientes **funciones y códigos**:
  ##FUNCIONES 
 
-* [1.Recuento de palabras ](#1-consideraciones-generales)
+* [1.Recuento de palabras ](##-consideraciones-generales)
 * [2. Preámbulo](#2-preámbulo)
 * [3. Resumen del proyecto](#3-resumen-del-proyecto)
 * [4. Funcionalidades](#4-funcionalidades)
